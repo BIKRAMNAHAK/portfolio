@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			registration form
+		</title>
+		<link href="css/registration.css" rel="stylesheet" />
+	</head>
+	<body>
+		<table border="5" align="center" cellspacing="10" cellpadding="5" width="1000"  bgcolor="#ADD8E6">
+			<form>
+				<tr>
+					<th colspan="4">
+						<img src="images/regs.jpg" alt="regs" width="1000" height="200" />
+					</th>
+				</tr>
+				
+				
+				<tr height="50">
+					<th>
+						<label>
+							Enter your Fast Name :
+						</label>
+					</th>
+					<td>
+						<input type="text" placeholder="Fast Name" name="f.name" />
+					</td>
+					<th>
+						<label>
+							Enter your Middle Name :
+						</label>
+					</th>
+					<td>
+						<input type="text" placeholder="Middle Name" name="M.name" />
+					</td>
+				</tr>
+				
+				<tr height="50" rowspan="3">
+					<th>
+						<label>
+							Enter your Last Name :
+						</label>
+					</th>
+					<td>
+						<input type="text" placeholder="Last Name" name="l.name" />
+					</td>
+				</tr>
+				
+				<tr height="50">
+					<th>
+						<label>
+							Enter your mobile no. :
+						</label>
+					</th>
+					<td>
+						<input type="tel" pattern="[0-9]{5} [0-9]{5}" placeholder="Mobile no" name="mobile no" />
+					</td>
+				</tr>
+				
+				<tr height="50">
+					<th>
+						<label>
+							Enter your Email Id :
+						</label>
+					</th>
+					<td>
+						<input type="email id" placeholder="Email Id" name="Email id" />
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label>
+							select your gander
+						</label>
+					</th>
+					<td>
+						<input type="radio" name="G" value="male" /><label>Male</label>
+						<input type="radio" name="G" value="female" /><label>Female</label>
+					</td>
+
+					<th>
+						<label>
+							select your hobbis
+						</label>
+					</th>
+					<td>
+						<input type="checkbox" name="G" value="Danceing" /><label>Danceing</label>
+						<input type="checkbox" name="G" value="singing" /><label>singing</label>
+						<input type="checkbox" name="G" value="swmming" /><label>swmming</label>
+						<input type="checkbox" name="G" value="singing" /><label>playing</label>
+					</td>
+				
+				</tr>
+
+				<tr>
+					<th>
+						<label>
+							Your date of borth
+						</label>
+					</th>
+					<td>
+						<input type="date" name="Date of borth" value="D.o.b" />
+					</td>
+				
+				</tr>
+
+				<tr>
+					<th>
+						<label>
+							chose your color
+						</label>
+					</th>
+					<td>
+						<input type="color" name="color" value="color" />
+					</td>
+					<th>
+						<label>
+							Enater your address :
+						</label>
+					</th>
+					<td rowspan="3">
+						<textarea rows="7" cols="30" placeholder="address" name="address"></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label>
+							Quntity
+						</label>
+					</th>
+					<td>
+						<input type="number" name="Quntity" value="Quntity" />
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label>
+							Registration time
+						</label>
+					</th>
+					<td>
+						<input type="time" name="registration time" value="time" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label>
+							Select states & Citys
+						</label>
+					</th>
+					<td colspan="2">
+						<select value="-1">
+							<option>
+								--select states--
+							</option>
+							<option>Utter pradesh</option>
+							<option>Madhy pradesh</option>
+							<option>Bihar</option>
+							<option>chhatishghar</option>
+							<option>odisha</option>
+							<option>Maharastra</option>
+							<option>Andra pradesh</option>
+							<option>Tamil nadu</option>
+							<option>Karnataka</option>
+							<option>Kerala</option>
+							<option>jharakhanda</option>
+							<option>West bangal</option>
+							<option>Telengana</option>
+							<option>Rajastan</option>
+							<option>Gujarat</option>
+							<option>Manipur</option>
+							<option>Mizoram</option>
+						</select>
+
+						<select value="-1">
+							<option>
+								--select Citis--
+							</option>
+							<option>lucknow</option>
+							<option>Bhopal</option>
+							<option>Patna</option>
+							<option>Raipurr</option>
+							<option>BHUBNESWER</option>
+							<option>Mumbai</option>
+							<option>Amaravati</option>
+							<option>Chennai</option>
+							<option>Bangular</option>
+							<option>Thiruvananthapuram</option>
+							<option>Ranchi</option>
+							<option>Kolkata</option>
+							<option>Haidrabad</option>
+							<option>jaipur</option>
+							<option>Gandhinagar</option>
+							<option>Imphal</option>
+							<option>Aizawl</option>
+						</select>
+					</td>
+					<th>
+						<label>
+							pincode
+						</label>
+							<input type="tel" pattern="[0-9]{6}" name="pincode" />
+					</th>
+				</tr>
+				<tr>
+					<th>
+
+					</th>
+					<div class="box">
+					<th>
+						<center>
+						<button type="Sumbit" Name="Sumbit">
+							Sumbit
+						</button>
+						</center>
+					</th>
+					</div>
+					<th>
+							<button type="Reset" name="Reset">
+								Reset
+							</button
+					</th>
+					<th>
+
+					</th>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>
